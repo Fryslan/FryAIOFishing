@@ -1,0 +1,37 @@
+.anchor-box {
+    -fx-background-color: #313131;
+}
+
+.header-text {
+    -fx-text-fill: #ca3e47;
+    -fx-font-style: Bold;
+}
+
+.start-button {
+    -fx-text-fill: #313131;
+    -fx-background-color: #ca3e47;
+    -fx-font-style: Bold;
+}
+
+.choice-box {
+    -fx-background-color: #414141;
+    -fx-mark-color: #ca3e47;
+}
+
+.check-box {
+    -fx-text-fill: #ca3e47;
+}
+
+.check-box .box {
+    -fx-background-color: #414141;
+    -fx-border-color: #313131;
+    -fx-border-radius: 3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #ca3e47;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #ca3e47;
+}
